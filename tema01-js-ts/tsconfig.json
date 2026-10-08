@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    /* Mapeo de archivos de entrada y salida */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Entorno de ejecución (Node.js moderno) */
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "es2022",
+    "lib": ["es2022"],
+    "types": ["node"],
+    "allowJs": true,
+
+    /* Generación de archivos de mapas y declaraciones */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Comprobación de tipos estricta */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+
+    /* Configuración del compilador */
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
